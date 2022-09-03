@@ -1,5 +1,5 @@
 body {
-	background:#121212;
+	background:#E1F8FE;
 	font:1em Trebuchet MS;
 	word-spacing:2px;
 	color:#545454;
@@ -12,7 +12,7 @@ body {
 }
 
 a {
-	color:#999;
+	color:#0;
 	border-bottom:1px dotted #232323;
 	text-decoration:none;
 	padding:2px 4px 2px 4px;
@@ -33,7 +33,7 @@ h2.first {
 	margin:0 0 15px 0;
 }
 h2 a {
-	color:#99CC33;
+	color:#063360;
 	text-decoration:none;
 	border:none;
 	padding:0;
@@ -44,7 +44,7 @@ h2 a:hover {
 }
 h3 {
 	font-size:1.2em;
-	color:#ccc;
+	color:#0857A6;
 	font-weight:normal;
 	margin:15px 0 15px 0;
 }
@@ -74,7 +74,7 @@ blockquote p {
 	font-size:0.9em;
 }
 #sidebar a {
-	color:#ccc;
+	color:#0F314C;
 	border:none;
 }
 #sidebar a:hover {
@@ -83,7 +83,7 @@ blockquote p {
 	border:none;
 }
 #sidebar h1 {
-	color:#fff;
+	color:#0F314C;
 	font-size:1.7em;
 }
 #sidebar h1 a {
