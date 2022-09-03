@@ -24,7 +24,7 @@ a:hover {
 
 h2 {
 	font:24px Arial, sans-serif;
-	color:#99CC33;
+	color:#E1F8FE;
 	letter-spacing:-1px;
 	font-weight:normal;
 	margin:15px 0 15px 0;
@@ -40,7 +40,7 @@ h2 a {
 }
 h2 a:hover {
 	border:none;
-	background:none;
+	background:E1F8FE;
 }
 h3 {
 	font-size:1.2em;
@@ -105,7 +105,7 @@ ol li {
 #nav a {
 	display:block;
 	margin:0;
-	color:#99CC33;
+	color:#E1F8FE;
 	border:none;
 }
 #nav a b {
@@ -143,11 +143,11 @@ ol li {
 .postdata {
 	font:11px Verdana;
 	margin:-6px 0 -15px 0;
-	color:#777;
+	color:#E1F8FE;
 }
 #footer {
 	padding:30px;
 	text-align:center;
-	border-top:3px solid #333;
+	border-top:3px solid #E1F8FE;
 	margin:50px 0 0 0;
 	background:#000;
