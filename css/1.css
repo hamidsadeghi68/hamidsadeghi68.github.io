@@ -19,7 +19,7 @@ a {
 }
 a:hover {
 	border-bottom:1px dotted #99CC33;
-	background:#101010;
+	background:#E1F8FE;
 }
 
 h2 {
@@ -55,7 +55,7 @@ p {
 blockquote {
 	font-size:1.7em;
 	margin:35px 150px 35px 0;
-	color:#787878;
+	color:#E1F8FE;
 	background:url(../images/blockquote.gif) top left no-repeat;
 	padding:15px 0 0 0;
 	font-family:Georgia, "Times New Roman", Times, serif;
@@ -79,7 +79,7 @@ blockquote p {
 }
 #sidebar a:hover {
 	text-decoration:underline;
-	color:#eee;
+	color:#E1F8FE;
 	border:none;
 }
 #sidebar h1 {
@@ -87,7 +87,7 @@ blockquote p {
 	font-size:1.7em;
 }
 #sidebar h1 a {
-	color:#fff;
+	color:#E1F8FE;
 	text-decoration:none;
 	padding:0;
 }
@@ -111,7 +111,7 @@ ol li {
 #nav a b {
 	float:right;
 	display:none;
-	color:#333;
+	color:#E1F8FE;
 }
 #nav a:hover {
 	background:none;
