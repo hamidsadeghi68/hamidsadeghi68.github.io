@@ -43,6 +43,7 @@ li.star{border-color:#f0b429}li.star .m:after{content:" ★ Best Paper";color:#d
 li[dir=rtl].star .m:after{content:" ★ مقاله برتر"}
 .rev{display:flex;flex-wrap:wrap;gap:10px}
 .rev a{background:var(--card);border:1px solid var(--bd);padding:6px 14px;border-radius:10px;font-size:14px}
+summary{cursor:pointer;list-style:none}summary::-webkit-details-marker{display:none}summary h2{margin-bottom:18px}summary h2:before{content:"▸";color:var(--ac);transition:.2s}details[open]>summary h2:before{transform:rotate(90deg)}
 footer{text-align:center;color:var(--mu);font-size:13px;padding:30px}
 @media(max-width:600px){.hero{flex-direction:column;text-align:center}.chips,.btns{justify-content:center}}
 </style>
@@ -55,7 +56,7 @@ footer{text-align:center;color:var(--mu);font-size:13px;padding:30px}
 <div>
 <h1>Hamid Sadeghi</h1>
 <p class="sub">AI Engineer with a PhD in Electrical Engineering and 15+ years of hands-on experience in applied machine learning, computer vision, and NLP.</p>
-<div class="chips"><span>Artificial Intelligence</span><span>Computer Vision</span><span>Machine Learning</span><span>Pattern Recognition</span><span>Facial Image Analysis</span><span>NLP</span>
+<div class="chips"><span>Artificial Intelligence</span><span>Computer Vision</span><span>Machine Learning</span><span>Pattern Recognition</span><span>Facial Image Analysis</span><span>NLP</span></div>
 <div class="btns"><a href="https://www.linkedin.com/in/hamidsadeghi68/">LinkedIn</a><a href="https://scholar.google.com/citations?user=UefF-PMAAAAJ&hl=en">Google Scholar</a><a href="https://github.com/hamidsadeghi68">GitHub</a></div>
 </div>
 </header>
@@ -66,7 +67,7 @@ footer{text-align:center;color:var(--mu);font-size:13px;padding:30px}
 <div class="card"><b>MSc · 2013</b><p>Electrical Engineering, Digital Electronics<br><a href="https://aut.ac.ir/">Amirkabir University of Technology</a></p><small>Facial Expression Recognition using Image Texture Description</small></div>
 </div></section>
 
-<section id="journals"><h2>Journals</h2><ul>
+<section id="journals"><details open><summary><h2>Journals (9)</h2></summary><ul>
 <li dir="auto"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0020025522006867">HistNet: Histogram-based convolutional neural network with Chi-squared deep metric learning for facial expression recognition</a><div class="m">H. Sadeghi, A.A. Raie · <a href="https://www.sciencedirect.com/journal/information-sciences" style="display:inline;font-weight:400">Information Sciences</a>, 608, 472-488, 2022</div></li>
 <li dir="auto"><a href="https://www.sciencedirect.com/science/article/pii/S1047320319301592">Histogram distance metric learning for facial expression recognition</a><div class="m">H. Sadeghi, A.A. Raie · J. Visual Communication and Image Representation, 62, 152-165, 2019</div></li>
 <li dir="auto"><a href="https://link.springer.com/article/10.1007/s11042-019-07863-z">Human vision inspired feature extraction for facial expression recognition</a><div class="m">H. Sadeghi, A.A. Raie · Multimedia Tools and Applications, 78(21), 30335-30353, 2019</div></li>
@@ -78,7 +79,7 @@ footer{text-align:center;color:var(--mu);font-size:13px;padding:30px}
 <li dir="auto"><a href="http://tjee.tabrizu.ac.ir/article_2977_354.html">شناسایی حالت چهره با استفاده از نرمالیزاسیون هندسی و تبدیل ویولت مختلط Dual-Tree</a><div class="m">ح. صادقی، ف. آیت‌اللّهی، ا. ا. راعی · مجله مهندسی برق دانشگاه تبریز، جلد 45، شماره 3، صفحات 79-87، پاییز 94</div></li>
 </ul></section>
 
-<section id="conferences"><h2>Conferences</h2><ul>
+<section id="conferences"><details><summary><h2>Conferences (17)</h2></summary><ul>
 <li dir="auto"><a href="https://ieeexplore.ieee.org/document/8342346">Approximated chi-square distance for histogram matching in facial image analysis: face and expression recognition</a><div class="m">H. Sadeghi, A.A. Raie · MVIP 2017, Isfahan, Iran, pp. 188-191, IEEE, 2017</div></li>
 <li dir="auto"><a href="https://civilica.com/doc/497432/">Illumination invariant visual tracking via Kalman filtering and efficient feature matching</a><div class="m">V. Ghanbari, H. Sadeghi, M.R. Nargesi · 1st Int. Conf. on New Research Achievements in Electrical and Computer Engineering, Tehran, 2016</div></li>
 <li dir="auto"><a href="http://link.springer.com/chapter/10.1007/978-3-319-10849-0_11">Semi-dynamic facial expression recognition based on masked displacement image</a><div class="m">H. Sadeghi, A.A. Raie · AISP 2013, Tehran, Springer, pp. 100-108, 2014</div></li>
