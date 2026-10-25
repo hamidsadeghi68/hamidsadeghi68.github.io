@@ -55,12 +55,13 @@ li[dir=rtl].star .m:after{content:" ★ مقاله برتر"}
 .rev a{background:var(--card);border:1px solid var(--bd);padding:6px 14px;border-radius:10px;font-size:14px}
 summary{cursor:pointer;list-style:none}summary::-webkit-details-marker{display:none}summary h2{margin-bottom:18px}summary h2:before{content:"▸";color:var(--ac);transition:.2s}details[open]>summary h2:before{transform:rotate(90deg)}
 .card summary small:after{content:" ▾";color:var(--ac)}.ab{font-size:14px;color:var(--mu)}
+#up{position:fixed;inset-inline-end:20px;bottom:20px;width:42px;height:42px;border-radius:50%;background:var(--ac);color:var(--bg);display:flex;align-items:center;justify-content:center;font-size:20px;opacity:0;pointer-events:none;transition:.2s;box-shadow:0 4px 14px rgba(0,0,0,.2)}#up.show{opacity:1;pointer-events:auto}#up:hover{text-decoration:none}
 footer{text-align:center;color:var(--mu);font-size:13px;padding:30px}
 @media(max-width:600px){nav div{flex-wrap:nowrap;overflow-x:auto;gap:18px}nav b{display:none}nav a{white-space:nowrap}.hero{flex-direction:column;align-items:center;text-align:center}.chips,.btns{justify-content:center}}
 </style>
 </head>
 <body>
-<nav><div><b>Hamid Sadeghi</b><a href="#experience">Experience</a><a href="#education">Education</a><a href="#journals">Journals</a><a href="#conferences">Conferences</a><a href="#review">Review</a></div></nav>
+<nav><div><b>Hamid Sadeghi</b><a href="#experience">Experience</a><a href="#education">Education</a><a href="#journals">Journals</a><a href="#conferences">Conferences</a><a href="#review">Peer Review</a></div></nav>
 <main>
 <header class="hero">
 <img src="images/hamid.jpg" alt="Hamid Sadeghi">
@@ -129,5 +130,7 @@ footer{text-align:center;color:var(--mu);font-size:13px;padding:30px}
 </main>
 <footer>© Hamid Sadeghi</footer>
 <script>document.getElementById("em").onclick=function(e){e.preventDefault();var a="hamid.sadeghi68"+"@"+"gmail.com",b=this;if(/Mobi|Android|iPhone/i.test(navigator.userAgent)){location.href="mailto:"+a;return}navigator.clipboard.writeText(a).then(function(){b.textContent="Copied: "+a;setTimeout(function(){b.textContent="Email"},3000)},function(){b.textContent=a})}</script>
+<a href="#" id="up" aria-label="Back to top">↑</a>
+<script>var u=document.getElementById("up");onscroll=function(){u.classList.toggle("show",scrollY>600)};u.onclick=function(e){e.preventDefault();scrollTo({top:0,behavior:"smooth"})}</script>
 </body>
 </html>
