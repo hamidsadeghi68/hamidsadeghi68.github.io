@@ -54,6 +54,7 @@ li[dir=rtl].star .m:after{content:" ★ مقاله برتر"}
 .rev{display:flex;flex-wrap:wrap;gap:10px}
 .rev a{background:var(--card);border:1px solid var(--bd);padding:6px 14px;border-radius:10px;font-size:14px}
 summary{cursor:pointer;list-style:none}summary::-webkit-details-marker{display:none}summary h2{margin-bottom:18px}summary h2:before{content:"▸";color:var(--ac);transition:.2s}details[open]>summary h2:before{transform:rotate(90deg)}
+.card summary small:after{content:" ▾";color:var(--ac)}.ab{font-size:14px;color:var(--mu)}
 footer{text-align:center;color:var(--mu);font-size:13px;padding:30px}
 @media(max-width:600px){nav div{flex-wrap:nowrap;overflow-x:auto;gap:18px}nav b{display:none}nav a{white-space:nowrap}.hero{flex-direction:column;align-items:center;text-align:center}.chips,.btns{justify-content:center}}
 </style>
@@ -73,7 +74,7 @@ footer{text-align:center;color:var(--mu);font-size:13px;padding:30px}
 
 <section id="education"><h2>Education</h2>
 <div class="edu">
-<div class="card"><b>PhD · 2019</b><p>Electrical Engineering, Electronics<br><a href="https://aut.ac.ir/">Amirkabir University of Technology</a></p><small>Person-Independent Facial Expression Recognition in the Wild</small></div>
+<div class="card"><b>PhD · 2019</b><p>Electrical Engineering, Electronics<br><a href="https://aut.ac.ir/">Amirkabir University of Technology</a></p><details><summary><small>Person-Independent Facial Expression Recognition in the Wild</small></summary><p class="ab">This thesis addresses facial expression recognition in uncontrolled conditions, focusing on feature extraction and classification. It proposes a texture descriptor inspired by the human vision system, a histogram metric learning algorithm based on a modified chi-squared distance with a convex loss function, and a histogram-based convolutional neural network trained end-to-end with a metric-learning loss. Person-independent accuracy reached 89.24% on RAF, 61.01% on SFEW, 83.41% on MMI and 98.47% on CK+, exceeding the best previously reported results by 2.24, 2.87, 4.88 and 1.17 points.<br><i>Keywords: metric learning, convolutional neural network, feature extraction, histogram classification.</i></p></details></div>
 <div class="card"><b>MSc · 2013</b><p>Electrical Engineering, Digital Electronics<br><a href="https://aut.ac.ir/">Amirkabir University of Technology</a></p><small>Facial Expression Recognition using Image Texture Description</small></div>
 </div></section>
 
