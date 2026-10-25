@@ -122,6 +122,6 @@ footer{text-align:center;color:var(--mu);font-size:13px;padding:30px}
 </div></section>
 </main>
 <footer>© Hamid Sadeghi</footer>
-<script>document.getElementById("em").onclick=function(){location.href="mailto:"+"hamid.sadeghi68"+"@"+"gmail.com";return false}</script>
+<script>document.getElementById("em").onclick=function(e){e.preventDefault();var a="hamid.sadeghi68"+"@"+"gmail.com",b=this;if(/Mobi|Android|iPhone/i.test(navigator.userAgent)){location.href="mailto:"+a;return}navigator.clipboard.writeText(a).then(function(){b.textContent="Copied: "+a;setTimeout(function(){b.textContent="Email"},3000)},function(){b.textContent=a})}</script>
 </body>
 </html>
